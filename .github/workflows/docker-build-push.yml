@@ -32,4 +32,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/proxyception:latest
+          tags: ghcr.io/schwankner/proxyception:latest
