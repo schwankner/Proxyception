@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Adjust branch as needed
 
+permissions:
+  contents: read
+  packages: write
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
