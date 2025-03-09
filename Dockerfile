@@ -11,4 +11,4 @@ COPY proxy.py .
 EXPOSE 8888
 
 # Setze den Standardbefehl, um den Proxy zu starten
-CMD ["python", "proxy.py"]
+CMD ["python", "-u", "proxy.py"]
